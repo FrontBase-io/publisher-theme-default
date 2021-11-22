@@ -1,19 +1,54 @@
+.header {
+  background-color: rgba(0, 0, 0, 0.15);
+  width: 100vw;
+  height: 64px;
+  display: flex;
+  color: white;
+  line-height: 64px;
+  padding-left: 1vw;
+  font-size: 18px;
+  position: fixed;
+  top: 0;
+}
+.content {
+  min-height: calc(100vh - 462px);
+}
 .container {
   margin: auto;
-  max-width: 500px;
-  font-family: sans-serif;
+  max-width: 950px;
+  height: 100%;
+  color: white;
 }
-.heading {
-  color: rebeccapurple;
+.footer {
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.15);
+  width: 100vw;
+  line-height: 40px;
+  padding: 0 1vw;
+  color: white;
 }
 .nav-links {
   display: flex;
   list-style: none;
-  padding-left: 0;
+  padding-right: 1vw;
+  padding: 0;
+  margin: 0;
 }
 .nav-link-item {
+  padding: 0;
+  margin: 0;
   padding-right: 2rem;
+  height: 64px;
 }
 .nav-link-text {
-  color: black;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  transition: all 0.3s;
+  &:hover {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+.hero {
+  width: 100vw;
 }

@@ -20,14 +20,14 @@ module.exports = {
       resolve: "gatsby-source-custom-api",
       options: {
         rootKey: "pages",
-        url: "https://frontbase.vtvc.nl/api/publisher-pages/read?apiKey=2khpem2jpkw4tf0bp2khpem2jpkw4tf0bq",
+        url: "https://frontbase.vtvc.nl/api/publisher-pages/read?apiKey=2khpem2jpkw4tf0bp2khpem2jpkw4tf0bq&site=6196335c0bf915d96d63b057",
       },
     },
     {
       resolve: "gatsby-source-custom-api",
       options: {
         rootKey: "site",
-        url: "https://frontbase.vtvc.nl/api/publisher-sites/read?apiKey=2khpem2jpkw4tf0bp2khpem2jpkw4tf0bq",
+        url: "https://frontbase.vtvc.nl/api/publisher-sites/read?apiKey=2khpem2jpkw4tf0bp2khpem2jpkw4tf0bq&key=frontbase-io",
       },
     },
   ],
